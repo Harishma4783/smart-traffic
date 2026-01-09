@@ -104,7 +104,8 @@
         let output = document.getElementById("output");
         output.innerHTML = "<h2>🚦 Traffic Started</h2>";
 
-        for (let road of roads) {
+        for (let road of roads) {![imageharish](https://github.com/user-attachments/assets/de64e175-17d5-4bab-a43f-313c1a3f4c6a)
+
             let time = greenTime(road.vehicles);
 
             output.innerHTML += `
